@@ -16,5 +16,10 @@ namespace Primer_Repositorio
         {
             InitializeComponent();
         }
+
+        private void BotonAceptar_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Hola";
+        }
     }
 }
