@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.BotonAceptar = new System.Windows.Forms.Button();
+            this.ckb1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -52,12 +53,23 @@
             this.BotonAceptar.UseVisualStyleBackColor = true;
             this.BotonAceptar.Click += new System.EventHandler(this.BotonAceptar_Click);
             // 
+            // ckb1
+            // 
+            this.ckb1.AutoSize = true;
+            this.ckb1.Location = new System.Drawing.Point(281, 169);
+            this.ckb1.Name = "ckb1";
+            this.ckb1.Size = new System.Drawing.Size(80, 17);
+            this.ckb1.TabIndex = 2;
+            this.ckb1.Text = "checkBox1";
+            this.ckb1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(414, 337);
+            this.Controls.Add(this.ckb1);
             this.Controls.Add(this.BotonAceptar);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -71,6 +83,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BotonAceptar;
+        private System.Windows.Forms.CheckBox ckb1;
     }
 }
 
